@@ -8,6 +8,15 @@
     <title>Getリクエスト処理</title>
 </head>
 <body>
+<?php
+$no = $_GET["no"];
+$nolist = [3, 5, 7, 8, 9];
 
+if(in_array($no, $nolist)) {
+    echo "{$no}はありました。";
+} else {
+    echo "{$no}はありませんでした。";
+}
+?>
 </body>
 </html>
