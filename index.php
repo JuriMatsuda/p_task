@@ -16,6 +16,13 @@
             <li><input type="submit" value="submit!!"></li>
         </ul>
     </form>
+
+    <form method="get" action="check.php">
+        <ul>
+            <li><label>番号：<input type="number" name="no"></label></li>
+            <li><label><input type="submit" value="search!!"></label></li>
+        </ul>
+    </form>
 </div>
 </body>
 </html>
