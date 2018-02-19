@@ -17,6 +17,11 @@ if(in_array($no, $nolist)) {
 } else {
     echo "{$no}はありませんでした。";
 }
+
+$data = $_GET["data"];
+$data = rawurldecode($data);
+echo "「{$data}」を受け取りました。";
+
 ?>
 </body>
 </html>
